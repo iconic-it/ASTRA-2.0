@@ -766,8 +766,8 @@
                     content: aiResponse
                 });
                 
-                if (conversationHistory.length > 12) {
-                    conversationHistory = conversationHistory.slice(-12);
+                if (conversationHistory.length > 6) {
+                    conversationHistory = conversationHistory.slice(-6);
                 }
                 
                 return aiResponse;
